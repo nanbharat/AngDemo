@@ -1,0 +1,28 @@
+
+
+<table style="width:100%">
+    <thead>
+
+        <tr>
+          <th>ID</th>
+          <th>Name</th> 
+          <th>DOB</th>
+          <th>DOJ</th> 
+          <th>Salary</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+
+        <tr *ngFor=" let emp of Employess">
+            <td>{{ emp.ID }}</td>
+            <td>{{ emp.Name }}</td>
+            <td>{{ emp.DOB }}</td>
+            <td>{{ emp.DOJ }}</td>
+            <td>{{ emp.Salary }}</td>
+        </tr>
+
+    </tbody>
+
+      
+      </table>
